@@ -12,7 +12,7 @@ pipeline {
        stage('Second-stage') {
             steps {
                 echo "The build number is  ${BUILD_NUMBER}"
-                echo "The build number is  ${BRANCH_NAME}"
+                echo "The build number is  ${NODE_NAME}"
                 
             }
         } 
